@@ -120,6 +120,19 @@ export default function Schedule({ blocks, unplaced, goals, selectedId, onSelect
 
       <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) 296px', gap: 24, alignItems: 'start' }} className="schedule-grid">
         <div style={{ border: '1px solid #E6E2D9', borderRadius: 6, background: '#FFFFFF', overflow: 'hidden', overflowX: 'auto' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 20, padding: '14px 16px', borderBottom: '1px solid #E6E2D9', minWidth: 560 }}>
+            <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 10, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#8A8E85' }}>
+              Key
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 7, fontSize: 12, color: '#55605B' }}>
+              <div style={{ width: 9, height: 9, borderRadius: 2, background: '#2A332F' }} />
+              Fixed
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 7, fontSize: 12, color: '#55605B' }}>
+              <div style={{ width: 9, height: 9, borderRadius: 2, background: ACCENT }} />
+              Your goals
+            </div>
+          </div>
           <div style={{ display: 'grid', gridTemplateColumns: gridColumns, borderBottom: '1px solid #E6E2D9', minWidth: 560 }}>
             <div />
             {week.map((d) => (
