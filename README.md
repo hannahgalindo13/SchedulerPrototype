@@ -63,6 +63,8 @@ of being told.
 **Before:** Schedule screen — color-coded blocks, no legend anywhere on
 the screen.
 
+Original AI-generated commit: https://github.com/hannahgalindo13/SchedulerPrototype/commit/8b42b99
+
 **After:** Schedule screen — a "KEY" row with "Fixed" and "Your goals"
 placed directly above the calendar grid, inside the same bordered card as
 the grid itself, using the exact colors already established (no new
